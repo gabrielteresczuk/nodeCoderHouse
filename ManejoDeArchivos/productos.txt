@@ -1,0 +1,26 @@
+[
+  {
+    "title": "lapiz",
+    "price": 20,
+    "thumbnail": "lapiz.jpg",
+    "id": 1
+  },
+  {
+    "title": "lapiz",
+    "price": 20,
+    "thumbnail": "lapiz.jpg",
+    "id": 2
+  },
+  {
+    "title": "lapiz",
+    "price": 20,
+    "thumbnail": "lapiz.jpg",
+    "id": 3
+  },
+  {
+    "title": "lapiz",
+    "price": 20,
+    "thumbnail": "lapiz.jpg",
+    "id": 4
+  }
+]
