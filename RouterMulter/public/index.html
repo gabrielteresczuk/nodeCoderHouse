@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario de Carga</title>
+</head>
+<body>
+    <main>
+        <h1>Formulario Carga de Productos</h1>
+        <p>Ingresa todos los campos</p>
+        <form action="/api/productos" method="POST" >
+            <label for="tittle">Titulo</label>
+            <input type="text" name="tittle" id="tittle" placeholder="Coca Cola" class="input" required>
+            <label for="price">Precio</label>
+            <input type="number" name="price" id="price" placeholder="350" class="input" required>
+            <label for="thumbnail">Imagen</label>
+            <input type="text" name="thumbnail" id="thumbnail" placeholder="CocaCola.jpg" class="input" required>
+            <input type="submit" value="enviar" class="submit">
+        </form>
+    </main>
+</body>
+</html>
