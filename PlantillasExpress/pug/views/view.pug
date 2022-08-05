@@ -1,0 +1,27 @@
+extends layout/index.pug
+
+block view
+    .container
+        h1 Pug js
+        main
+            h2 Lista de Productos
+            if cantproductos
+                table
+                    thead
+                        th Nombre
+                        th Precio
+                        th Imagen
+                    tbody
+                        each producto in productos
+                            tr
+                                td=producto.nombre
+                                td=producto.precio
+                                td
+                                    img(src=producto.url, alt='')
+                    tfoot
+                        tr
+                        td(colspan='3') Cantidad de Productos #{cantproductos}
+            else
+                p.nohay No hay productos cargados
+        section.Botones
+            a(href='index.html') Cargar Producto

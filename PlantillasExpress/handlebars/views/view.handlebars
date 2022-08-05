@@ -1,0 +1,31 @@
+<div class="container">
+  <h1>Handlebars</h1>
+  <main>
+    <h2>Lista de Productos</h2>
+    {{#if productos}}
+      <table>
+        <thead>
+          <th>Nombre</th><th>Precio</th><th>Imagen</th>
+        </thead>
+        <tbody>
+          {{#each productos}}
+            <tr>
+              <td>{{this.nombre}}</td>
+              <td>${{this.precio}}</td>
+              <td><img src={{this.url}} alt="imagen" /></td>
+            </tr>
+          {{/each}}
+        </tbody>
+        <tfoot>
+          <tr><td colspan="3"># Productos: {{cantroductos}}</td></tr>
+        </tfoot>
+
+      </table>
+    {{else}}
+      <p class="nohay">No hay productos cargados</p>
+    {{/if}}
+  </main>
+  <section class="Botones">
+    <a href="index.html">Cargar Producto</a>
+  </section>
+</div>

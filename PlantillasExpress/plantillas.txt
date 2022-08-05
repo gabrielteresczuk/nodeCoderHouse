@@ -1,0 +1,10 @@
+-Handlebars
+Me parecio incomodo su uso, ya que al intentar montar el engine tuve demasiados problemas 
+y la documentacion no ayudaba mucho.
+
+-Pug 
+Me parece el metodo mas incomodo e impractico para realizar las plantillas.
+
+-EJS
+Lo considero el mejor de las tres opciones ya que su use es super simple y la sintaxis es la misma de JS,
+lo unico importante es saber utilizar la estiquetas y el proyecto sale con facilidad.

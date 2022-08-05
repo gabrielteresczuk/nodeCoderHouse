@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alta de Productos</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Handlebars</h1>
+      <main>
+        <h2>Ingreso de Productos</h2>
+        <form method="post" action="/productos">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required />
+
+          <label for="precio">Precio:</label>
+          <input type="number" id="precio" name="precio" required />
+
+          <label for="url">Url de Imagen:</label>
+          <input type="url" id="url" name="url" required />
+
+          <input type="submit" value="Enviar" class="submit" />
+        </form>
+      </main>
+      <section class="Botones">
+        <a href="/productos">Ver Productos</a>
+      </section>
+    </div>
+  </body>
+</html>
