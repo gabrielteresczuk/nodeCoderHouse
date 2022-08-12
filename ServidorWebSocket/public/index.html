@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Websocket</title>
+    <!-- ------ archivo de estilo ------ -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- ----- libreria escencial ------ -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Servidor Websocket</h1>
+      <main class="main">
+        <h2>Ingreso de Productos</h2>
+        <form id="form" class="form">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required />
+
+          <label for="precio">Precio:</label>
+          <input type="number" id="precio" name="precio" required />
+
+          <label for="url">Url de Imagen:</label>
+          <input type="url" id="url" name="url" required />
+
+          <input type="submit" value="Enviar" class="submit" />
+        </form>
+      </main>
+      <!-- --- espacio para el listado --- -->
+      <section id="listado">
+      </section>
+
+
+      <section class="main">
+        <h2>Centro de Mensajes</h2>
+        <div class="form">
+          <label for="email">Email:</label>
+          <input type="email" id="chat_email" name="email" placeholder="user@chat.com" required />
+        </div>
+
+        <!-- --- espacio para los chats ---- -->
+        <ul id="chat_msg" class="chat_msg">
+        </ul>
+
+        <form id="chat_form" class="form">
+          <input type="text" id="chat_text" name="chat_text" placeholder="Escribe un mensaje..." required />
+          <input type="submit" value="Enviar" class="submit" />
+        </form>
+      </section>
+
+    </div>
+  </body>
+</html>
+<!-- ----------- script ------------ -->
+<script src="js/main.js"></script>

@@ -1,0 +1,25 @@
+<section class="main">
+    <h2>Lista de Productos</h2>
+    {{#if productos}}
+      <table>
+        <thead>
+          <th>Nombre</th><th>Precio</th><th>Imagen</th>
+        </thead>
+        <tbody>
+          {{#each productos}}
+            <tr>
+              <td>{{this.nombre}}</td>
+              <td>${{this.precio}}</td>
+              <td><img src={{this.url}} alt="imagen" /></td>
+            </tr>
+          {{/each}}
+        </tbody>
+        <tfoot>
+          <tr><td colspan="3"># Productos: {{productos.length}}</td></tr>
+        </tfoot>
+
+      </table>
+    {{else}}
+      <p class="nohay">No hay productos cargados</p>
+    {{/if}}
+</section>
