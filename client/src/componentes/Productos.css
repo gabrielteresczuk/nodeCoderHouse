@@ -1,0 +1,40 @@
+.Productos {
+  background-color: #fafafa;
+  min-height: 100%;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  padding: 2rem;
+}
+
+.Productos h1 {
+  text-align: center;
+  color: #416fdf;
+}
+
+.Cards__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.Productos_admin {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.Productos__btn {
+  text-decoration: none;
+  color: white;
+  background-color: #416fdf;
+  padding: 5px;
+  border-radius: 5px;
+  border: 0px;
+}
+
+.Productos__btn:hover {
+  opacity: 0.8;
+}
