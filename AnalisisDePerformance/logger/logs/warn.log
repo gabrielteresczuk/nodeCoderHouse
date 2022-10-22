@@ -1,0 +1,4 @@
+{"level":"warn","message":"ROUTE: /esta - METHOD: GET"}
+{"level":"warn","message":"ROUTE: /ruta - METHOD: GET"}
+{"level":"warn","message":"ROUTE: /no - METHOD: GET"}
+{"level":"warn","message":"ROUTE: /existe - METHOD: GET"}

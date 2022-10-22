@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="./css/style.css">
+    <meta name="author" content="Teresczuk Gabriel">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2280%22>🧨</text></svg>">
+    <title>Passport - Signup</title>
+</head>
+<body>
+
+    <main id="app">
+        <div class="contenedor">
+            <div class="titulo">
+                <h1>REGISTRO</h1>
+                <span class="material-symbols-outlined icon_size">person</span>
+            </div>
+            
+            <p class="texto_ayuda">ingrese sus datos</p>
+            
+            <form method="post" action="/signup" id="register_form" class="register_form" autocomplete="off">
+                <label for="username">Usuario:</label>
+                <input type="text" name="username" id="username" required class="input">
+                <label for="password">Contraseña:</label>
+                <input type="text" name="password" id="password" required class="input">
+                <input type="submit" value="Registrar" class="btn">
+                <div id="reg_msg"></div>
+                <div class="reg_cont">
+                    <a href="/login" id="login">Login</a>
+                </div>
+            </form>
+        </div>
+    </main>
+    
+</body>
+</html>
