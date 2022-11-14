@@ -1,0 +1,2 @@
+{"level":"error","message":"Listar por ID - ReferenceError: producto is not defined"}
+{"level":"error","message":"BorrarPorId - ReferenceError: producto is not defined"}
