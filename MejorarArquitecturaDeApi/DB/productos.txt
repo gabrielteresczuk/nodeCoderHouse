@@ -1,0 +1,8 @@
+[
+  {
+    "nombre": "coca",
+    "precio": "1122",
+    "foto": "https://carrefourar.vtexassets.com/arquivos/ids/220177/7790895000997_02.jpg?v=637704294205400000",
+    "id": 1
+  }
+]

@@ -1,0 +1,7 @@
+[
+  {
+    "username": "gabriel",
+    "password": "$2b$10$pxJaVuuVcc6YOJGm.vXUvOS/LKovCTkDkXAXUkjY/fKkot2VnVaVa",
+    "id": 1
+  }
+]
