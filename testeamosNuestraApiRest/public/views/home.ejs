@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Teresczuk Gabriel">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2280%22>🧨</text></svg>">
+    <title>Passport - Home</title>
+    <!-- ------ archivo de estilo ------ -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- ----- libreria escencial ------ -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/normalizr@3.6.2/dist/normalizr.browser.js"></script>
+  </head>
+  <body>
+    <div class="container" id="container">
+      <h1>Servidor Con Session</h1>
+      
+      <!-- ------------ login ------------ -->
+
+      <section class="main username">
+        <h2>Bienvenido <b><%= username %></b></h2>
+        <a href="/logout"> <button  class="boton" id="logout"> Loguot</button></a>
+      </section>
+
+
+      <main class="main">
+        <h2>Ingreso de Productos</h2>
+        <form id="form" class="form" method="post" action="/productos">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required />
+
+          <label for="precio">Precio:</label>
+          <input type="number" id="precio" name="precio" required />
+
+          <label for="foto">Url de Imagen:</label>
+          <input type="foto" id="foto" name="foto" required />
+
+          <input type="submit" value="Enviar" class="submit" />
+        </form>
+      </main>
+
+      <!-- --- espacio para el listado --- -->
+
+
+      <section id="listado">
+      </section>
+
+      <section id="listadomock">
+      </section>
+
+
+      <section class="main">
+        <h2>Centro de Mensajes</h2>
+        <div class="form">
+          <label for="id">Id:</label>
+          <input type="email" id="chat_id" name="id" placeholder="user@chat.com" required />
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="chat_nombre" name="nombre" placeholder="Gabriel" required />
+          <label for="apellido">Apellido:</label>
+          <input type="text" id="chat_apellido" name="apellido" placeholder="Teresczuk" required />
+          <label for="edad">Edad:</label>
+          <input type="number" id="chat_edad" name="edad" placeholder="30" required />
+          <label for="alias">Alias:</label>
+          <input type="text" id="chat_alias" name="alias" placeholder="Gabi" required />
+          <label for="avatar">avatar:</label>
+          <input type="text" id="chat_avatar" name="avatar" placeholder="avatar.png" required />
+        </div>
+
+        <!-- --- espacio para los chats ---- -->
+        <h3 id="chat_compresion">Compresion: </h3>
+        <ul id="chat_msg" class="chat_msg">
+        </ul>
+
+        <form id="chat_form" class="form">
+          <input type="text" id="chat_text" name="chat_text" placeholder="Escribe un mensaje..." required />
+          <input type="submit" value="Enviar" class="submit" />
+        </form>
+      </section>
+
+    </div>
+  </body>
+</html>
+<!-- ----------- script ------------ -->
+
+<script src="../js/main.js"></script>

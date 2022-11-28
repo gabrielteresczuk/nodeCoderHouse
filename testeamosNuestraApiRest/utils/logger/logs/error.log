@@ -1,0 +1,61 @@
+{"level":"error","message":"Listar por ID - ReferenceError: producto is not defined"}
+{"level":"error","message":"BorrarPorId - ReferenceError: producto is not defined"}
+{"level":"error","message":"Actualizar - CastError: Cast to ObjectId failed for value \"{ id: '637fa52ff4c9c053fea6a4ce' }\" (type Object) at path \"_id\" for model \"productos\""}
+{"level":"error","message":"BorrarPorId - CastError: Cast to ObjectId failed for value \"{}\" (type Object) at path \"_id\" for model \"productos\""}
+{"level":"error","message":"Actualizar - CastError: Cast to Number failed for value \"a\" (type string) at path \"precio\""}
+{"level":"error","message":"Actualizar - CastError: Cast to ObjectId failed for value \"6380ba7b135aa0baaed003778\" (type string) at path \"_id\" for model \"productos\""}
+{"level":"error","message":"Actualizar - CastError: Cast to ObjectId failed for value \"6380ba7b135aa0baaed003778\" (type string) at path \"_id\" for model \"productos\""}
+{"level":"error","message":"Actualizar - CastError: Cast to ObjectId failed for value \"6380ba7b135aa0baaed003778\" (type string) at path \"_id\" for model \"productos\""}
+{"level":"error","message":"Actualizar - CastError: Cast to ObjectId failed for value \"6380ba7b135aa0baaed003778\" (type string) at path \"_id\" for model \"productos\""}
+{"level":"error","message":"Listar por ID - TypeError: Cannot read properties of null (reading '_doc')"}
+{"level":"error","message":"Listar por ID - TypeError: Cannot read properties of null (reading '_doc')"}
+{"level":"error","message":"Actualizar - CastError: Cast to ObjectId failed for value \"1122\" (type number) at path \"_id\" for model \"productos\""}
+{"level":"error","message":"Actualizar - CastError: Cast to ObjectId failed for value \"1122\" (type number) at path \"_id\" for model \"productos\""}
+{"level":"error","message":"Actualizar - CastError: Cast to ObjectId failed for value \"1122\" (type string) at path \"_id\" for model \"productos\""}
+{"level":"error","message":"Actualizar - CastError: Cast to ObjectId failed for value \"1122\" (type string) at path \"_id\" for model \"productos\""}
+{"level":"error","message":"Actualizar - CastError: Cast to ObjectId failed for value \"1122\" (type string) at path \"_id\" for model \"productos\""}
+{"level":"error","message":"Actualizar - CastError: Cast to ObjectId failed for value \"1122\" (type string) at path \"_id\" for model \"productos\""}
+{"level":"error","message":"Actualizar - CastError: Cast to ObjectId failed for value \"1122\" (type string) at path \"_id\" for model \"productos\""}
+{"level":"error","message":"Actualizar - CastError: Cast to ObjectId failed for value \"1122\" (type string) at path \"_id\" for model \"productos\""}
+{"level":"error","message":"Actualizar - CastError: Cast to ObjectId failed for value \"1122\" (type string) at path \"_id\" for model \"productos\""}
+{"level":"error","message":"Listar por ID - TypeError: Cannot read properties of null (reading '_doc')"}
+{"level":"error","message":"Listar por ID - TypeError: Cannot read properties of null (reading '_doc')"}
+{"level":"error","message":"Actualizar - CastError: Cast to ObjectId failed for value \"1122\" (type string) at path \"_id\" for model \"productos\""}
+{"level":"error","message":"Actualizar - CastError: Cast to ObjectId failed for value \"1122\" (type string) at path \"_id\" for model \"productos\""}
+{"level":"error","message":"Listar por ID - CastError: Cast to ObjectId failed for value \"1122\" (type string) at path \"_id\" for model \"productos\""}
+{"level":"error","message":"Actualizar - CastError: Cast to ObjectId failed for value \"1122\" (type string) at path \"_id\" for model \"productos\""}
+{"level":"error","message":"Listar por ID - CastError: Cast to ObjectId failed for value \"1122\" (type string) at path \"_id\" for model \"productos\""}
+{"level":"error","message":"Actualizar - CastError: Cast to ObjectId failed for value \"1122\" (type string) at path \"_id\" for model \"productos\""}
+{"level":"error","message":"Listar por ID - ReferenceError: ObjectId is not defined"}
+{"level":"error","message":"Listar por ID - CastError: Cast to ObjectId failed for value \"6380a3e82f2ffed63d5dade55\" (type string) at path \"_id\" for model \"productos\""}
+{"level":"error","message":"Actualizar - CastError: Cast to ObjectId failed for value \"1122\" (type string) at path \"_id\" for model \"productos\""}
+{"level":"error","message":"Actualizar - ReferenceError: id is not defined"}
+{"level":"error","message":"Actualizar - ReferenceError: id is not defined"}
+{"level":"error","message":"Actualizar - ReferenceError: id is not defined"}
+{"level":"error","message":"Actualizar - ReferenceError: id is not defined"}
+{"level":"error","message":"Actualizar - ReferenceError: id is not defined"}
+{"level":"error","message":"Actualizar - ReferenceError: id is not defined"}
+{"level":"error","message":"Actualizar - ReferenceError: id is not defined"}
+{"level":"error","message":"Actualizar - ReferenceError: id is not defined"}
+{"level":"error","message":"BorrarPorId - ReferenceError: obj is not defined"}
+{"level":"error","message":"BorrarPorId - CastError: Cast to ObjectId failed for value \"1122\" (type number) at path \"_id\" for model \"productos\""}
+{"level":"error","message":"Guardar - ReferenceError: id is not defined"}
+{"level":"error","message":"Guardar - ReferenceError: id is not defined"}
+{"level":"error","message":"Guardar - ReferenceError: id is not defined"}
+{"level":"error","message":"BorrarPorId - ReferenceError: cantidad is not defined"}
+{"level":"error","message":"BorrarPorId - ReferenceError: vaid is not defined"}
+{"level":"error","message":"BorrarPorId - ReferenceError: vaid is not defined"}
+{"level":"error","message":"BorrarPorId - ReferenceError: cantidad is not defined"}
+{"level":"error","message":"BorrarPorId - ReferenceError: cantidad is not defined"}
+{"level":"error","message":"BorrarPorId - ReferenceError: cantidad is not defined"}
+{"level":"error","message":"BorrarPorId - ReferenceError: cantidad is not defined"}
+{"level":"error","message":"Listar por ID - RangeError: Maximum call stack size exceeded"}
+{"level":"error","message":"Listar por ID - RangeError: Maximum call stack size exceeded"}
+{"level":"error","message":"Listar por ID - RangeError: Maximum call stack size exceeded"}
+{"level":"error","message":"Listar por ID - RangeError: Maximum call stack size exceeded"}
+{"level":"error","message":"Listar por ID - RangeError: Maximum call stack size exceeded"}
+{"level":"error","message":"Listar por ID - RangeError: Maximum call stack size exceeded"}
+{"level":"error","message":"Listar por ID - RangeError: Maximum call stack size exceeded"}
+{"level":"error","message":"Listar por ID - RangeError: Maximum call stack size exceeded"}
+{"level":"error","message":"Actualizar - ReferenceError: id is not defined"}
+{"level":"error","message":"Actualizar - ReferenceError: id is not defined"}
